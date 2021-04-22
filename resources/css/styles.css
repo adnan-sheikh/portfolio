@@ -4,7 +4,9 @@
     --primaryColor: #5943CB;
     --secondaryColor: #FFC2BA;
     --buttonColor: #494BFF;
+    --accentColor: #FFCA02;
     --textColor: #101029;
+    --h1Sizing: 4.4rem;
 }
 
 * {
@@ -25,13 +27,15 @@ html, body {
 }
 
 h1 {
-    font-size: 4.4rem;
+    font-size: var(--h1Sizing);
     font-family: 'Patua One', cursive;
+    letter-spacing: 1.5px;
 }
 
 h2 {
     font-size: 2rem;
     font-family: 'Patua One', cursive;
+    letter-spacing: 1.5px;
 }
 
 p, li, a, span {
@@ -64,8 +68,39 @@ header a {
 
 /* Main styles */
 
+/* main {
+    margin-top: 7.5rem;
+} */
+
 /* Hero styles */
 
-main {
-    margin-top: 7.5rem;
+#hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--primaryColor);
+    color: white;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 60rem;
+}
+
+.hero-title {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+#hero img {
+    width: 70px;
+}
+
+#hero h2 {
+    color: var(--secondaryColor);
+}
+
+#hero span {
+    font-size: var(--h1Sizing);
+    color: var(--accentColor);
 }
