@@ -44,13 +44,12 @@ header {
     background-color: var(--primaryColor);
     position: fixed;
     width: 100vw;
+    height: 7.5rem;
     z-index: 2;
-}
-
-nav {
     display: flex;
-    padding: 2rem 1rem;
+    align-items: center;
     justify-content: center;
+    top: 0;
 }
 
 header ul {
@@ -61,4 +60,12 @@ header ul {
 
 header a {
     color: white;
+}
+
+/* Main styles */
+
+/* Hero styles */
+
+main {
+    margin-top: 7.5rem;
 }
