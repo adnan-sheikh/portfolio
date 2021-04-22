@@ -1,6 +1,6 @@
 # Portfolio project
 
-This project is a part of Codecademy Front End Engineer Career Path.
+This project is a part of **Codecademy Front End Engineer Career Path**.
 
 My portfolio website highlights the projects I have completed so far in my journey.
 
