@@ -115,10 +115,14 @@ header a {
     justify-content: center;
 }
 
-.about-container {
+.about-text-container {
     padding: 10rem 3rem;
 }
 
+.about-img-container img {
+    width: 80rem;
+    padding: 10rem 3rem;
+}
 
 #about h2 {
     color: var(--primaryColor)
@@ -144,4 +148,10 @@ header a {
     background-color: white;
     color: var(--primaryColor);
     outline: 1px solid var(--primaryColor);
+}
+
+/* Projects styles */
+
+#projects img {
+    width: 30rem;
 }
