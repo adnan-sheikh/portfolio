@@ -92,15 +92,10 @@ header li {
 
 /* Main styles */
 
-/* main {
-    margin-top: 7.5rem;
-} */
-
 /* Hero styles */
 
 #hero {
     height: 100vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     background-color: var(--primaryColor);
@@ -144,7 +139,7 @@ header li {
 }
 
 .about-img-container img {
-    max-width: 80rem;
+    max-width: 50rem;
     padding: 10rem 3rem;
 }
 
@@ -266,6 +261,7 @@ footer ul {
 
 .top-btn {
     padding: 2rem;
+    transition: all 0.25s;
 }
 
 footer li {
@@ -281,4 +277,12 @@ hr {
 footer p {
     color: white;
     padding: 2rem;
+}
+
+.social-btn {
+    transition: all 0.25s;
+}
+
+.social-btn:hover, .top-btn:hover {
+    transform: translateY(-1rem);
 }
