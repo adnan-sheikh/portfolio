@@ -213,6 +213,7 @@ header li {
 #projects {
     display: flex;
     justify-content: center;
+    padding-bottom: 10rem;
 }
 
 .projects-collection {
@@ -225,7 +226,7 @@ header li {
 /* Contact styles */
 
 #contact {
-    height: 20rem;
+    height: 30rem;
     background-color: var(--primaryColor);
     color: white;
     display: flex;
@@ -239,5 +240,45 @@ header li {
     color: var(--secondaryColor);
 }
 
+#contact p {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
 
+/* Footer styles */
 
+footer {
+    background-color: var(--textColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer ul {
+    display: flex;
+    width: 30rem;
+    justify-content: space-around;
+}
+
+.top-btn {
+    padding: 2rem;
+}
+
+footer li {
+    padding-bottom: 2rem;
+
+}
+
+hr {
+    width: 50rem;
+    color: white;
+}
+
+footer p {
+    color: white;
+    padding: 2rem;
+}
