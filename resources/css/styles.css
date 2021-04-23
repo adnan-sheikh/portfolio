@@ -187,7 +187,7 @@ header li {
     align-items: center;
     border-radius: 2rem;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .card .img-container {
@@ -208,4 +208,16 @@ header li {
 .card .project {
     margin-top: 2rem;
     margin-bottom: 4rem;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-collection {
+    width: 160rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
