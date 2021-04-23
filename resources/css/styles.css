@@ -144,7 +144,7 @@ header li {
 }
 
 .about-img-container img {
-    width: 80rem;
+    max-width: 80rem;
     padding: 10rem 3rem;
 }
 
