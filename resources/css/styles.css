@@ -149,6 +149,7 @@ header li:hover::after {
 
     header {
         justify-content: flex-end;
+        height: 6rem;
     }
 
     .mobile-nav {
@@ -328,6 +329,16 @@ header li:hover::after {
 #contact p {
     font-size: 2.5rem;
     line-height: 1.5;
+}
+
+.contact-container {
+    padding: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    #contact p {
+        font-size: 2rem;
+    }
 }
 
 /* Footer styles */
