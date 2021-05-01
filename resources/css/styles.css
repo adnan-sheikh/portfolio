@@ -247,6 +247,10 @@ main {
     #hero h1, #hero span {
         font-size: 3.5rem;
     }
+
+    #hero {
+        top: 0rem;
+    }
 }
 
 /* About styles */
