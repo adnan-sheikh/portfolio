@@ -101,6 +101,7 @@ header {
     position: relative;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
+    z-index: 2;
 }
 
 .menu-btn {
@@ -159,6 +160,46 @@ header {
     .about-img-container {
         display: none;
     }
+
+    .menu-content {
+        position: fixed;
+        width: 100%;
+        margin-top: 6rem;
+        background-color: var(--primaryColor);
+        z-index: 1;
+        height: 100vh;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        display: none;
+        transition: all 0.3s ease-in-out,
+    }
+    
+    .menu-content ul {
+        text-align: end;
+    }
+    
+    .menu-content li {
+        display: block;
+        margin-bottom: 3rem;
+        transition: background-color 0.3s ease-in-out,
+        color 0.5s ease-in-out;
+    }
+    
+    .menu-content a {
+        font-size: 3rem;
+        color: white;
+        transition: background-color 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+    }
+
+    .menu-content a:hover, .menu-content a:active {
+        color: var(--accentColor);
+    }
+
+    .menu-content.show {
+        display: block;
+    }
+
 }
 
 /* Main styles */
