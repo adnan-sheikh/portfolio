@@ -24,6 +24,7 @@ html, body {
     font-size: 10px;
     font-family: 'Maven Pro', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 h1 {
