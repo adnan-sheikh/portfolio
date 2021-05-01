@@ -57,23 +57,23 @@ header {
     top: 0;
 }
 
-header ul {
+.desktop-nav ul {
     display: flex;
     justify-content: space-between;
     width: 60rem;
 }
 
-header a {
+.desktop-nav a {
     color: white;
 }
 
-header li {
+.desktop-nav li {
     position: relative;
     overflow: hidden;
     height: 2.5rem;
 }
 
-header li::after {
+.desktop-nav li::after {
     position: absolute;
     bottom: 2px;
     content: '';
@@ -83,7 +83,7 @@ header li::after {
     transition: width ease-in-out 0.45s;
 }
 
-header li:hover::after {
+.desktop-nav li:hover::after {
     width: 100%;
 }
 
