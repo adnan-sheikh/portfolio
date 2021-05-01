@@ -26,5 +26,4 @@ menuBtn.addEventListener('click', () => {
         isMenuOpen = false;
         menuBtn.classList.remove('open');
     }
-    console.log(menuBtn.classList);
 });
