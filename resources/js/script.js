@@ -16,14 +16,5 @@ viewLessBtn.addEventListener('click', () => {
 // Hamburger menu script
 
 const menuBtn = document.querySelector('.menu');
-let isMenuOpen = false;
 
-menuBtn.addEventListener('click', () => {
-    if (!isMenuOpen) {
-        menuBtn.classList.add('open');
-        isMenuOpen = true;
-    } else {
-        isMenuOpen = false;
-        menuBtn.classList.remove('open');
-    }
-});
+menuBtn.addEventListener('click', () => menuBtn.classList.toggle('open'));
