@@ -204,6 +204,9 @@ header {
 
 /* Main styles */
 
+main {
+    position: relative;
+}
 /* Hero styles */
 
 #hero {
@@ -213,6 +216,8 @@ header {
     background-color: var(--primaryColor);
     color: white;
     justify-content: center;
+    position: relative;
+    top: -7rem;
 }
 
 .hero-container {
