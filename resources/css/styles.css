@@ -91,9 +91,55 @@ header li:hover::after {
     display: none;
 }
 
+.menu {
+    margin-right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-btn {
+    width: 3rem;
+    height: 3px;
+    background-color: white;
+    border-radius: 1.5px;
+}
+
+.menu-btn::before {
+    position: absolute;
+    content: '';
+    width: 3rem;
+    height: 3px;
+    background-color: white;
+    border-radius: 1.5px;
+    transform: translateY(-10px);
+}
+
+.menu-btn::after {
+    position: absolute;
+    content: '';
+    width: 3rem;
+    height: 3px;
+    background-color: white;
+    border-radius: 1.5px;
+    transform: translateY(10px);
+}
+
 @media only screen and (max-width: 1000px) {
     .desktop-nav {
         display: none;
+    }
+
+    header {
+        justify-content: flex-end;
+    }
+
+    .mobile-nav {
+        display: flex;
     }
 
     .about-img-container {
