@@ -72,6 +72,20 @@ header li {
     height: 2.5rem;
 }
 
+header li::after {
+    position: absolute;
+    bottom: 2px;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width ease-in-out 0.45s;
+}
+
+header li:hover::after {
+    width: 100%;
+}
+
 .under-bar {
     background-color: white;
     width: 100%;
