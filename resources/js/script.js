@@ -19,14 +19,13 @@ const menuBtn = document.querySelector('.menu');
 const menuContent = document.querySelector('.menu-content');
 const links = document.querySelectorAll('.menu-content li');
 
-menuBtn.addEventListener('click', () => {
+const toggleOpenAndShowClass = () => {
     menuBtn.classList.toggle('open');
     menuContent.classList.toggle('show');
-});
+};
+
+menuBtn.addEventListener('click', toggleOpenAndShowClass);
 
 for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener('click', () => {
-        menuBtn.classList.toggle('open');
-        menuContent.classList.toggle('show');
-    });
+    links[i].addEventListener('click', toggleOpenAndShowClass);
 }
