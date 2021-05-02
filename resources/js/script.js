@@ -19,8 +19,6 @@ const menuBtn = document.querySelector('.menu');
 const menuContent = document.querySelector('.menu-content');
 const links = document.querySelectorAll('.menu-content li');
 
-console.log(links);
-
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('open');
     menuContent.classList.toggle('show');
