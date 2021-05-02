@@ -231,6 +231,18 @@ main {
     margin-bottom: 1.5rem;
 }
 
+.section-title h2::before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: var(--secondaryColor);
+    display: inline-block;
+    margin-right: 1rem;
+    position: relative;
+    bottom: 5px;
+}
+
 .title-bar {
     width: 70px;
 }
@@ -278,6 +290,10 @@ main {
 
 #about h2 {
     color: var(--primaryColor)
+}
+
+#about h2::before {
+    background-color: var(--primaryColor);
 }
 
 #about p {
