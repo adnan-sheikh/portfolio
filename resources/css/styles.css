@@ -75,6 +75,7 @@ header {
 
 .desktop-nav li::after {
     position: absolute;
+    left: 0;
     bottom: 2px;
     content: '';
     width: 0%;
